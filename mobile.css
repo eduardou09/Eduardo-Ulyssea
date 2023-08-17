@@ -1,0 +1,791 @@
+
+@media screen and (max-width: 1900px) {
+  .dual-button button {
+    border: none;
+  }
+
+  div#foto-efeito {
+    background-image: url("img-650.jpg") ;
+    width: 600px;
+	  height:600px;
+    }
+  .card::before {
+    height: 600px;
+  }
+
+  p#email2 {
+    margin-top: 20px;
+    font-size: 12.3pt;
+   }
+   .conteiner-habilidades h2 {
+    margin-top: 80PX;
+   }
+}
+
+
+
+@media screen and (max-width: 1550px){
+ 
+  div#foto-efeito {
+    background-image: url("img-650.jpg") ;
+    width: 500px;
+	  height:500px;
+    }
+
+
+
+  .card p {
+    font-size: 15pt;
+  }
+
+  p#email2 {
+    font-size: 8.4pt;
+   }
+ 
+}
+
+
+@media screen and (max-width: 1500px) {
+
+
+ #menu {
+  display: none;
+  
+ }
+
+ #nav.active #menu  {
+  display:block;
+  position: absolute;
+  width: 100%;
+ 
+  right: 0px;
+  background-color: #ffffff;
+  display: block;
+  z-index: 100;
+  text-align: center;
+ }
+
+
+ #btn-mobile {
+  display: flex;
+  align-items: center;
+  padding: .5rem 1rem; 
+  font-size:0%;
+  border: none;
+  background-color:white;
+  cursor: pointer;
+  gap: .5rem;
+ }
+
+ #hamburger {
+  display: block;
+  border-top: 2px solid;
+  width: 20px;
+  color: #000000;
+ }
+
+ #hamburger::after, #hamburger::before {
+  content: '';
+  display: block;
+  width: 20px;
+  height: 2px;
+  background-color: currentColor;
+  color: #000000;
+  margin-top: 5px;
+  transition:.3s;
+  position: relative;
+ }
+
+ #nav.active #hamburger {
+  border-top-color: transparent;
+ }
+
+ #nav.active #hamburger::before{
+  transform: rotate(135deg);
+
+ }
+
+ #nav.active #hamburger::after {
+  transform: rotate(-135deg);
+  top: -7px;
+ }
+
+
+ li#btt {
+  border-bottom: 0.5px solid #e5e5e5;
+  border-top: 0.5px solid #e5e5e5;
+  margin: 0;
+ }
+ 
+ li#contato {
+  border-bottom: 0.5px solid #e5e5e5;
+  border-top: 0.5px solid #e5e5e5;
+  border-left: none;
+  border-right: none;
+  margin: 0;
+  border-radius: 0;
+ }
+
+ li#contato a {
+  color: #000000;
+}
+
+li#contato:hover {
+  background-color: #f2f2f2;
+}
+
+li#english {
+    display: block;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e5e5e5;
+
+  }
+
+  .ingles {
+    display: none;
+  }
+
+  li#english:hover {
+    background-color: #f2f2f2;
+    box-shadow: none;
+  }
+  
+  .mobile-menu-icon {
+    display: block;
+  }
+
+  .mobile-menu-icon:hover {
+    border-radius: 50%;
+    color: #000000;
+  }
+
+  
+  
+  .mobile-menu-icon button {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .mobile-menu ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+  }
+
+  .mobile-menu li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 5px;
+    border-top: 2px solid #f2f2f2;
+    font-size: 14pt;
+  }
+
+  .mobile-menu li a  {
+    color: black;
+    text-decoration: none;
+  }
+
+  
+  .open {
+    display: block;
+  }
+
+  div#foto-efeito {
+    width: 500px;
+    height: 500px;
+    background-image: url("foto-550.jpg");
+  }
+  p#email2 {
+    margin-top: 20px;
+    font-size: 8.7pt;
+   }
+
+}
+
+
+@media screen and (max-width: 1250px){
+  #header h1 {
+    font-size: 27pt;
+  }
+
+  #btn-mobile {
+    font-size: 0;
+  }
+  
+
+  .btn-shine {
+    font-size: 42pt;
+  }
+
+  .info-baixo {
+    font-size: 13pt;
+  }
+
+
+
+
+   .card {
+    width: 60%;
+   }
+
+   .card h4 {
+    font-size: 22px;
+   }
+
+   .card p {
+    font-size: 13.5pt;
+   }
+
+   .titulo3 h2 {
+    font-size: 22pt;
+   }
+
+   .titulo3  p {
+    font-size: 15pt;
+   }
+
+   .card1 {
+    width: 13vw;
+    height: 7vh;
+   }
+
+   p#email2 {
+    font-size: 8.3pt;
+   }
+
+   .conteiner-habilidades h2 {
+    font-size: 23pt;
+   }
+
+}
+
+@media screen and (max-width: 1150px) {
+
+
+  .menu h1 {
+    font-size: 28pt;
+  }
+  div#foto-efeito {
+    background-image: url("foto-550.jpg") ;
+    width: 480px;
+    height: 480px;
+  }
+  .card1 p {
+    font-size: .9rem;
+  }
+}
+
+
+
+@media screen and (max-width: 1000px) {
+
+  div#foto-efeito {
+    background-image: url("foto-400.jpg") ;
+    width: 400px;
+    height: 400px;
+  }
+
+  .container-tipo .card-tipo .face {
+    width: 240px;
+    height: 200px;
+  }
+
+  .container-tipo .card-tipo .face.face2 .content p {
+    font-size: .8rem;
+  }
+
+
+  .info-baixo {
+    font-size: 12pt;
+  }
+}
+
+
+@media screen and (max-width: 930px) {
+  .menu h1 {
+    font-size: 25pt;
+  }
+
+  div#foto-efeito {
+    background-image: url("foto-380.jpg") ;
+    width: 350px;
+    height: 350px;
+  }
+  .card1 {
+    width: 130px;
+    height: 60px;
+   }
+
+   .card {
+    width: 80%;
+   }
+
+   p#email2 {
+    font-size: 7.8pt;
+   }
+
+   
+  .info-baixo {
+    font-size: 11pt;
+  }
+
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 900px){
+	/* Estilizações CSS */
+	
+.ul {
+  margin-top: 200px;
+  display: none;
+}
+
+.mobile-menu-icon {
+  display: block;
+}
+
+.mobile-menu-icon button {
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.mobile-menu ul {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.open {
+  display: block;
+}
+
+.card {
+  width:80%
+  
+}
+
+.card p {
+  font-size: 12pt;
+}
+
+.card::before {
+  height: 600px;
+}
+
+}
+
+@media screen and (max-width: 850px) {
+
+  #header h1 {
+    font-size: 24pt;
+  }
+
+  #header {
+    height: 65px;
+   
+  }
+
+
+  .conteiner1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+
+  }
+
+  .part-white {
+    justify-content: center;
+    width: 100%;
+    height: none;
+    padding: 0 0 50px 0;
+    margin: none;
+    text-align: center;
+    background-color: #efefef;
+  }
+
+  .informacoes {
+
+    align-items: center;
+    justify-content: start;
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+  .tech-dominate p {
+    margin: 0;
+    padding: 0;
+  }
+
+ 
+
+
+  .dual-button {
+    margin-left: 0;
+  }
+
+  .tech-dominate {
+    margin-left: 0;
+  }
+
+  .btn-shine {
+    border-left: none;
+    font-size: 40pt;
+    
+  }
+
+  .part-cinza {
+  background-image: url(../_imagens/background.jpg);
+  width: 100%;
+  border-bottom:100px ;
+  padding: 50px 0 50px 0;
+  }
+
+ 
+  p#email2 {
+    text-align:left;
+    font-size: .9rem;
+  }
+
+
+}
+
+
+
+
+@media screen and (max-width: 785px) {
+  .menu h1 {
+    font-size: 22pt;
+  }
+
+  .btn-shine {
+    font-size: 35pt;
+  }
+ 
+
+  .info-baixo {
+    font-size: 11pt;
+    padding: 7px;
+  }
+  .cont {
+    flex-direction: column;
+   
+  }
+
+  .part1 {
+    width: 100%;
+  }
+
+  .part2 {
+    width: 100%;
+    padding: 0 0 25px 0;
+
+  }
+
+  .card {
+    margin: 20px;
+    padding: 10px;
+    width: 350px;
+    align-items: center;
+    background-color: #ffffff;
+    color: #000000;
+  }
+
+  .card::before {
+    background-color:#ffffff ;
+  }
+
+  .card:hover{
+    color: #000000;
+}
+  
+.card a:hover{
+  color: #000000;
+}
+  
+
+  .card1 {
+    background-color: #ffffff;
+    color: #000000;
+    height: 70px;
+    width: 20vh;
+    
+  }
+
+  .card1::before {
+    background-color: #ffffff;
+  }
+
+  .card1 a {
+    color: #000000;
+  }
+
+
+
+  .card1:hover{
+    color: #000000;
+}
+  
+.card1 a:hover{
+  color: #000000;
+}
+
+  
+  
+
+  .container-tipo {
+    flex-wrap: wrap;
+    margin: 0;
+  }
+
+  
+}
+
+@media screen and (max-width: 680px) {
+
+  #header h1 {
+    font-size: 18pt;
+    font-weight: 300;
+  }
+
+ 
+    
+  .btn-shine {
+    font-size: 34pt;
+  }
+
+  .title h2::after {
+    display: none;
+  }
+  .gostou {
+    display: none;
+  }
+
+   .form-image {
+    width: 70%;
+   }
+
+   .form {
+    width: 100%;
+   }
+
+   input {
+    width: 50vw;
+   }
+
+  .inputs {
+    flex-direction: row;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .input-mensagem textarea  {
+    width:50vw;
+  }
+}
+
+@media screen and (max-width: 640px) {
+
+  #header{
+    padding: 0 1rem 0 1rem;
+  }
+ 
+  #btn-mobile {
+    font-size: 0%;
+  }
+
+  .btn-shine {
+    font-size: 31pt;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  
+
+  .btn-shine {
+    font-size: 29pt;
+  }
+ 
+}
+
+@media screen and (max-width: 560px) {
+  .btn-shine {
+    font-size: 27pt;
+  }
+    
+  .form-image {
+    
+    background-color: rgb(246, 246, 246);
+  }
+  
+  .form {
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    
+  }
+
+  .btn-shine {
+    font-size: 32pt;
+  }
+
+  .info-baixo {
+    font-size: 10pt;
+    padding: 6px;
+  }
+
+  .continue-button button {
+    margin: 10px;
+  }
+}
+
+  @media screen and (max-width: 525px) {
+
+    .btn-shine {
+      font-size: 27pt;
+    }
+
+    .tech-dominate p {
+      font-size: 1.4rem;
+    }
+
+    .dual-button button {
+      padding: 10px 20px 10px 20px;
+    }
+
+    .dual-button a{
+      font-size: 1.3rem;
+    }
+
+    .row{
+      flex-direction: column;
+    }
+
+
+    
+
+   
+
+   
+
+
+    
+
+    .conteiner-habilidades h2 {
+      margin-top: 0;
+    }
+
+  }
+
+  @media screen and (max-width: 495px) {
+  
+    #header h1 {
+      font-size: 18pt;
+    }
+
+  
+   
+
+    .container-projetos  .card-projetos {
+      width: 350px;
+      height: 600px;
+    }
+
+    .box {
+      width: 314px;
+    }
+
+    .content-projetos h4 {
+      color: #ffffff;
+      font-size: 14pt;
+    }
+
+    .foto-marlene {
+      width: 260px;
+      border-radius: 15px;
+    }
+    .rodape p {
+      font-size: 10pt;
+    }
+  }
+
+  @media screen and (max-width: 415px) {
+
+   div#foto-efeito {
+    width: 340px;
+    height: 340px;
+   }
+
+
+    #header h1 {
+      font-size: 20pt;
+    }
+
+      .btn-shine {
+      font-size: 23pt;
+    }
+
+   
+     .card p {
+      font-size: 11.5pt;
+
+    }
+
+    
+
+    .conteiner-habilidades {
+      margin-top: 110px;
+    }
+
+  }
+
+  @media screen and (max-width: 385px) {
+    #header h1 {
+      font-size: 17pt;
+    }
+
+    .btn-shine {
+      font-size: 20pt;
+    }
+
+
+    div#foto-efeito {
+      width: 300px;
+      height: 300px;
+      background-image: url("foto-300.jpg") ;
+    }
+
+   
+  
+
+    .card h4 {
+      font-size: 14pt;
+    }
+
+    .card p {
+      font-size: 10.7pt;
+    }
+
+    .titulo3 h2 {
+      font-size: 17pt;
+    }
+    .titulo3 p { 
+      font-size: 12pt;
+    }
+
+    
+
+   
+
+  }  
+
+ 
