@@ -425,6 +425,7 @@ li#english {
     justify-content: start;
     text-align: center;
     margin-bottom: 0;
+    gap: 1rem;
   }
 
   .tech-dominate p {
@@ -447,6 +448,7 @@ li#english {
   .btn-shine {
     border-left: none;
     font-size: 40pt;
+    padding:0;
     
   }
 
@@ -454,7 +456,7 @@ li#english {
   background-image: url(../_imagens/background.jpg);
   width: 100%;
   border-bottom:100px ;
-  padding: 50px 0 50px 0;
+  padding: 10px 0 30px 0;
   }
 
  
