@@ -99,7 +99,10 @@ li#btt:hover {
 
 li#contato {
   background-color:transparent;
+  display: none;
+  overflow: hidden;
 }
+
 
 li#contato:hover {
   background-color: #f2f2f2;
@@ -136,6 +139,11 @@ li#english:hover {
   padding: 10px 20px 10px 20px;
   border-radius: 10px;
   box-shadow: 0 10px 20px rgba(0, 0, 0,0.2);
+  transition: .6s;
+}
+
+.ingles button:hover {
+  transform: scale(1.1);
 }
 
 .ingles a {
@@ -652,7 +660,7 @@ div#foto-efeito {
 }
 
  .container-projetos .card-projetos:nth-child(1) .box .content-projetos a {
-  background: #0181F8;
+  background: #1D4DAA;
 }
 
  .container-projetos .card-projetos:nth-child(2) .box .content-projetos a {
