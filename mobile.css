@@ -427,9 +427,15 @@ li#english {
     margin-bottom: 0;
     gap: 1rem;
   }
+  
+  .btn-shine p { 
+    margin-bottom: 0;
 
+  }
+    
   .tech-dominate p {
     margin: 0;
+    margin-bottom: 20px;
     padding: 0;
   }
 
@@ -456,7 +462,7 @@ li#english {
   background-image: url(../_imagens/background.jpg);
   width: 100%;
   border-bottom:100px ;
-  padding: 10px 0 30px 0;
+  padding: 10px 0 10px 0;
   }
 
  
