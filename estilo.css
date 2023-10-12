@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
 
 html{
@@ -7,14 +8,14 @@ html{
 }
 
 
-p  {
+p, a  {
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
 }
 
-h1, h2, h3, h4, h5, a {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 500;
+h1, h2, h3, h4, h5 {
+  font-family: 'Nunito', sans-serif;
+  font-weight:700;
 } 
 
 
@@ -66,7 +67,7 @@ ul a {
 }
 
 #header h1 {
-  font-size: 25pt;
+  font-size: 2REM;
 }
 
 #menu {
@@ -147,7 +148,7 @@ li#english:hover {
 }
 
 .ingles a {
-  font-size: 17pt;
+  font-size: 1.5rem;
   color: #121212;
   text-decoration: none;
 }
@@ -163,9 +164,10 @@ li#english:hover {
 
 .part-white {
   width: 55%;
-  padding: 100px 0 100px 0;
+  padding: 20px 0 ;
   display: flex;
   align-items: center;
+  
   
 }
 
@@ -185,13 +187,15 @@ li#english:hover {
   flex-direction: column;
   align-items:start;
   justify-content: right;
-  margin-bottom: 100px;
+  margin-bottom: 10px;
   
 }
 
   .btn-shine {
     margin-top:0 ;
+    margin-bottom: 0;
     padding: 12px 35px;
+    font-family: 'Nunito', sans-serif;
     color: #ffffff;
     background: linear-gradient(to right, #000000 0, white 10%, #000000 20%);
     background-position: 0;
@@ -201,10 +205,10 @@ li#english:hover {
     animation-fill-mode: forwards;
     -webkit-text-size-adjust: none;
     font-weight: 600;
-    font-size: 70px;
+    font-size: 3rem;
     text-decoration:none;
-    border-left:50px  solid  #121212 ;
-  
+    border-left:50px  solid  #1c1c1c ;
+    font-family: 'Nunito', sans-serif;
   }
   @keyframes shine{ 
       0%{
@@ -225,14 +229,16 @@ li#english:hover {
 }
 
 .tech-dominate p {
-  font-size:1.8rem;
+  font-size:1.5rem;
   color: #d1d1d1;
+  margin-bottom: 0;
+  margin-bottom: 20px;
 }
 
 
 .tech-dominate img {
   position: relative;
-  width: 50px;
+  width: 40px;
   top: 10PX;
   
 }
@@ -244,7 +250,7 @@ li#english:hover {
 }
 
 .dual-button button {
-  background-color:black;
+  background-color:#121212;
   border: 1px solid;
   padding: 10px 40px 10px 40px;
   border-radius: 10px;
@@ -252,7 +258,7 @@ li#english:hover {
 }
 
 .dual-button a {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: #fcfbfb;
   text-decoration: none;
   
@@ -274,10 +280,10 @@ div#foto-efeito {
   display: flex;
 	justify-content: center;
   opacity: 1;
-	width: 700px;
-	height:700px;
+	width: 500px;
+	height:500px;
 	margin: auto;
-	background-image: url("IMG_E9608.JPG") ;
+	background-image: url("foto-550.jpg") ;
 	border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
 	box-shadow: 15px 15px 50px rgba(0,0,0,.2);
 	animation: morphing 10s infinite;
@@ -311,7 +317,7 @@ div#foto-efeito {
 }
 
 .part1 {
-    background-color: #121212;
+    background-color: #1f1e1e;
     width: 50%;
     display: flex;
     align-items: center;
@@ -321,7 +327,7 @@ div#foto-efeito {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-color:#121212;
+  background-color:#1f1e1e;
   display: flex;
   width: 50%;
   align-items: center;
@@ -359,7 +365,7 @@ div#foto-efeito {
     z-index: -1;
     top: -15px;
     right: -15px;
-    background: #121212;
+    background: #1f1e1e;
     height:590px;
     width: 25px;
     border-radius: 32px;
@@ -381,28 +387,33 @@ div#foto-efeito {
 
   .card h4 {
   
-    font-size: 25pt;
+    font-size: 2rem;
     margin: 0;
   }
   
   .card p{
     padding: 10px 0;
     text-align: justify;
-    font-size: 17pt;
+    font-size: 1.3rem;
   }
 
 
  
   .titulo3 {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+
     color: #ffffff;
   }
 
   .titulo3 h2 {
-    font-size: 25pt;
+    font-size:2.3rem;
+    margin: 0;
   }
 
   .titulo3 p {
-    font-size: 17pt;
+    font-size: 1.2rem;
   }
   
   
@@ -414,7 +425,7 @@ div#foto-efeito {
     border-radius: 10px;
     filter: drop-shadow(0 5px 10px 0 #ffffff);
     width: 13vw;
-    height: 8vh;
+    height: 80px;
     background-color: #ffffff;
     padding: 10px;
     position: relative;
@@ -432,7 +443,7 @@ div#foto-efeito {
     z-index: -1;
     top: -15px;
     right: -15px;
-    background: #121212;
+    background: #1f1e1e;
     height:220px;
     width: 25px;
     border-radius: 32px;
@@ -469,11 +480,11 @@ div#foto-efeito {
   }
 
   p#email2 {
-    font-size: 13.3pt;
+    font-size: 1rem;
   }
 
   .card1 p {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
   }
 
 
@@ -482,7 +493,7 @@ div#foto-efeito {
   
 
   .card1 a {
-    color: #121212;
+    color: #1f1e1e;
     font-size: 1.3rem;
   }
 
@@ -544,7 +555,7 @@ div#foto-efeito {
   position: relative;
   width: 300px;
   height: 250px;
-  background: #121212;
+  background: #1f1e1e;
   display: flex;
   justify-content: center;
   align-items: center;
