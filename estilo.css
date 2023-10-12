@@ -223,6 +223,19 @@ li#english:hover {
       }
 
 
+      .btn-shine p { 
+        margin-bottom: 0;
+    
+      }
+        
+      .tech-dominate p {
+        margin: 0;
+        margin-bottom: 20px ;
+        padding: 0;
+      }
+    
+    
+
 .tech-dominate {
   display: flex;
   margin-left: 100px;
@@ -424,7 +437,7 @@ div#foto-efeito {
     justify-content:right;
     border-radius: 10px;
     filter: drop-shadow(0 5px 10px 0 #ffffff);
-    width: 13vw;
+    width: 230px;
     height: 80px;
     background-color: #ffffff;
     padding: 10px;
@@ -485,6 +498,7 @@ div#foto-efeito {
 
   .card1 p {
     font-size: 1.1rem;
+    margin: 10px;
   }
 
 
@@ -495,6 +509,7 @@ div#foto-efeito {
   .card1 a {
     color: #1f1e1e;
     font-size: 1.3rem;
+    margin-bottom: 0;
   }
 
  

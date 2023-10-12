@@ -253,8 +253,8 @@ li#english {
    }
 
    .card1 {
-    width: 13vw;
-    height: 7vh;
+    width: 170px;
+    height: 80px;
    }
 
    p#email2 {
@@ -279,7 +279,7 @@ li#english {
     height: 480px;
   }
   .card1 p {
-    font-size: .9rem;
+    font-size: 1.1rem;
   }
 }
 
@@ -320,8 +320,8 @@ li#english {
     height: 350px;
   }
   .card1 {
-    width: 130px;
-    height: 60px;
+    width: 170px;
+    height: 80px;
    }
 
    .card {
@@ -531,8 +531,8 @@ li#english {
   .card1 {
     background-color: #ffffff;
     color: #000000;
-    height: 70px;
-    width: 20vh;
+    width: 230px;
+    height: 80px;
     
   }
 
@@ -554,6 +554,11 @@ li#english {
   color: #000000;
 }
 
+p#email2 {
+     
+  font-size: 1.1rem;
+
+}
   
   
 
@@ -682,6 +687,16 @@ li#english {
 
     .row{
       flex-direction: column;
+    }
+
+    .card1 p {
+      font-size: 1.2rem;
+    }
+
+    p#email2 {
+     
+        font-size: 1.1rem;
+      
     }
 
 
