@@ -554,11 +554,11 @@ li#english {
   color: #000000;
 }
 
-p#email2 {
+ p#email2 {
      
-  font-size: 1.1rem;
-
-}
+        font-size: 1.1rem;
+      
+    }
   
   
 
@@ -723,14 +723,13 @@ p#email2 {
 
   
    
-
     .container-projetos  .card-projetos {
-      width: 350px;
+      width: 300px;
       height: 600px;
     }
 
     .box {
-      width: 314px;
+      width: 264px;
     }
 
     .content-projetos h4 {
@@ -739,12 +738,20 @@ p#email2 {
     }
 
     .foto-marlene {
-      width: 260px;
+      width: 240px;
       border-radius: 15px;
+    }
+
+    img#ballonart {
+      width: 240px;
     }
     .rodape p {
       font-size: 10pt;
     }
+
+ 
+
+    
   }
 
   @media screen and (max-width: 415px) {
@@ -793,7 +800,9 @@ p#email2 {
       background-image: url("foto-300.jpg") ;
     }
 
-   
+   .conteiner-habilidades h2 {
+    font-size: 21pt;
+   }
   
 
     .card h4 {
