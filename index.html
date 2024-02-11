@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="estilo.css">
         <link rel="stylesheet"  href="mobile.css" />
-        
+        <link rel="icon" href="eduardoLogo.png">
     </head>
     <body>
         <header id="header">
@@ -18,6 +18,7 @@
                     <li id="btt"><a href="#conteiner1">Home</a></li>
                     <li id="btt"><a href="#cont">Sobre</a></li>
                     <li id="btt"><a href="#conteiner-habilidades">Habilidades</a></li>
+                    <li id="btt"><a href="#exp">Experiência</a></li>
                     <li id="btt"><a href="#Projetos">Projetos</a></li>
                     <li id="contato"><a href="#container4">Contato</a></li>
                     <li id="btt"><a href="index2.html">English</a></li>
@@ -35,12 +36,18 @@
                 <div class="informacoes">
                     <div class="btn-shine"><p> Prazer,<br> sou Eduardo Ulysséa<br>Desenvolvedor Front-end.</p> </div>
                     
-                    <div class="tech-dominate"><P>Tecnologias | <img src="icons8-html-48.png" alt="" id="tech"><img src="icons8-css-48.png" alt="" id="tech"><img src="icons8-javascript-48.png" alt="" id="tech"></P></div>
+                    <div class="tech-dominate"><P>Tecnologias |</P>
+                        <div class="tecnologias">
+                            <img src="icons8-javascript-48.png" alt="" id="tech">
+                            <img src="icons8-typescript-40.png" alt="" id="techTS">
+                            <img src="icons8-reagir-50.png" id="tech">
+                        </div>
+                    </div>
                     
 
                       
                    <div class="dual-button">
-                    <button><a href="curriculo.pdf" target="_blank"> Download CV</a></button>
+                    <button><a href="CurriculoPtBR.pdf" target="_blank"> Download CV</a></button>
                     <button><a href="#Projetos">Meus projetos</a></button>
                    </div>
                 </div>
@@ -62,7 +69,7 @@
             <div class="part1"> 
                 <div class="card">
                     <h4>Sobre mim</h4>
-                    <p>Sou desenvolvedor Front-end e estudante de  Engenharia de Software. Com o objetivo de me tornar Desenvolvedor Full-Stack. Comecei na área apenas por curiosidade, em pouco tempo notei minha facilidade no assunto, a partir disso fiquei interessado em me especializar na área e apresentei uma grande evolução. Desde então, venho aprimorando meus conhecimentos no Front-end e estudando inglês.</p>
+                    <p>Ingressei no desenvolvimento movido pela curiosidade, explorando códigos por puro interesse. O que começou como uma paixão pessoal rapidamente se tornou uma jornada profissional. Ao estudar e me aprimorar, descobri a diversidade e o potencial da área. Atualmente, consolido essa paixão em uma carreira como desenvolvedor front-end na Laev, aprofundando-me em linguagens, frameworks e contribuindo ativamente em projetos. Busco constantemente desafios, mantenho-me atualizado e estou comprometido em transformar minha afinidade por códigos em uma trajetória profissional gratificante.</p>
                 </div>
             </div>
 
@@ -112,10 +119,10 @@
                     <div class="face face2">
                         <div class="content">
                             <h3>Front-end</h3>
-                            <p>1. HTML5</p>
-                            <P>2. CSS3</P>
+                            <p>1. React.js</p>
+                            <P>2. Next.js</P>
                             <P>3. JavaScript</P>
-                    
+                            <P>4. TypeScript</P>
                         </div>
                     </div>
                 </div>
@@ -162,8 +169,8 @@
             </div>
            
         </div>
-        <div class="Projetos" id="Projetos" >
-        <h2>Minha Experiencia</h2>
+        <div class="Projetos" id="exp" >
+        <h2>Minha Experiência</h2>
         <div class="container-projetos">
             <div class="card-projetos">
               <div class="box">
@@ -179,23 +186,59 @@
               </div>
             </div>
           
+            
             <div class="card-projetos">
-              <div class="box">
-                <div class="content-projetos">
-                    <img  id="ballonart" src="balonarte.png" alt="">
-                  <h3>BalonArte JC</h3>
-                  <p>Contratado como freelancer para desenvolver o web app. Em processo de desenvolvimento.</p>
-                  <h4> Tecnologias</h4>
-                  <p>HTML5, CSS3 e JavaScript</p>
-          
-                 
+                <div class="box">
+                  <div class="content-projetos">
+                      <img  id="ballonart" src="laev.png" alt="">
+                      <h3>Laev</h3>
+                      <p>
+                        Atualmente, trabalho como desenvolvedor front-end na Laev, concentrando-me em sistemas de grande porte. Minhas responsabilidades envolvem tanto o desenvolvimento quanto a manutenção.</p>
+                      <h4>Tecnologias</h4>
+                    <p>React.js, Next.js, TypeScript, JavaScript.</p>
+                      
+                  </div>
                 </div>
               </div>
-            </div>
           
             
           </div>
         </div>
+        <div class="Projetos" id="Projetos" >
+            <h2>My Projects</h2>
+            <div class="container-projetos">
+                <div class="card-projetos">
+                  <div class="box">
+                    <div class="content-projetos">
+                        <img class="crud" src="CRUD.png" alt="">
+                      <h3>
+                        Company registration</h3>
+                      <p>Desenvolvi esse CRUD para Treianar minhas habilidades para um novo projeto.</p>
+                      <h4>Tecnologias</h4>
+                    <p>HTML5 CSS3 JavaScript</p>
+                      <a href="https://eduardou09.github.io/Crud-backup-cadastro-empresas/"target="_blank" id="crud">Ver Mais</a>
+              
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="card-projetos">
+                  <div class="box">
+                    <div class="content-projetos">
+                        <img  id="orderControlImg" src="orderControl.png" alt="">
+                        <h3>OrderControl</h3>
+                        <p>Desenvolvi este projeto para mostrar meu mais recente produto web. Este software serve como uma ferramenta completa para gerenciar pedidos com fornecedores</p>
+                        <h4>Tecnologias</h4>
+                      <p>HTML5 CSS3 JavaScript</p>
+                      <a href="https://eduardou09.github.io/OrderControl/"target="_blank" id="orderControl">Ver Mais</a>
+                    </div>
+                  </div>
+                </div>
+              
+               
+                
+              </div>
+            </div>
 
         <div class="container4" id="container4">
             <div class="form-image">

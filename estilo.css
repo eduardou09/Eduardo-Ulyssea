@@ -238,23 +238,28 @@ li#english:hover {
 
 .tech-dominate {
   display: flex;
+  align-items: center;
   margin-left: 100px;
+  margin-bottom: 30px;
 }
 
 .tech-dominate p {
   font-size:1.5rem;
   color: #d1d1d1;
   margin-bottom: 0;
-  margin-bottom: 20px;
+ 
 }
 
-
-.tech-dominate img {
-  position: relative;
-  width: 40px;
-  top: 10PX;
-  
+.tecnologias{
+  display: flex;
+  align-items: center;
 }
+
+#techTS {
+  width: 35px;
+  margin: 7px;
+}
+
   
 .dual-button {
   display: flex;
@@ -379,7 +384,7 @@ div#foto-efeito {
     top: -15px;
     right: -15px;
     background: #1f1e1e;
-    height:590px;
+    height:100% !important;
     width: 25px;
     border-radius: 32px;
     transform: scale(1);
@@ -788,6 +793,28 @@ div#foto-efeito {
   border-radius: 15px;
 }
 
+#crud{
+  background-color: #d1cfcf;
+}
+
+#crud:hover{
+  background-color: #f6a6a6;
+}
+
+#orderControlImg, .crud{
+  width: 310px;
+  border-radius: 15px;
+}
+
+
+#orderControl{
+  background-color: #1c1c1c;
+}
+
+
+#orderControl:hover{
+  background-color: #aaaaaa;
+}
 
 
 
